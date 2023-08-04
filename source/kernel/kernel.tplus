@@ -1,0 +1,11 @@
+BITS 32
+CODE
+
+INCLUDE "source/kernel/graphics/graphics.tplus"
+
+PUBLIC _start
+FUNC _start{
+        CALL print_name
+
+        HALT
+}

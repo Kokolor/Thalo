@@ -1,0 +1,12 @@
+DATA
+ADRESS video_memory = 0xB8000
+
+CODE
+PUBLIC print_name
+FUNC print_name{
+        video_memory(0) = 'T'
+        video_memory(1) = 'h'
+        video_memory(2) = 'a'
+        video_memory(3) = 'l'
+        video_memory(4) = 'o'
+}
